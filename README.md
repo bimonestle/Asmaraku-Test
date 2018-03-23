@@ -1,2 +1,0 @@
-# Asmaraku-Test
-Test Asmaraku
