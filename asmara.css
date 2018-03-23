@@ -1,0 +1,66 @@
+/* FILTER BUTTONS */
+nav {
+    margin: 30px 0;
+}
+div.masthead nav {
+    padding: 0;
+}
+.filter-buttons li.btn {
+    width: 125px;
+    border-radius: 0;
+    border: rgb(30, 18, 105) solid 2px;
+    text-transform: uppercase;
+}
+li.btn:nth-child(1), li.btn:nth-child(2), li.btn:nth-child(3), li.btn:nth-child(4) {
+    margin-right: 128px;
+} 
+div.products {
+    margin-top: 50px;
+}
+/* div.products::after {
+    content: '';
+    display: block;
+    clear: both;
+    left: 0 !important;
+} */
+
+/* Product */
+div.products .product {
+    position: relative !important;
+    left: 0 !important;
+    top: 0!important;
+    border: rgb(30, 18, 105) solid 2px;
+    margin: 20px 0;
+}
+/* div.products .product::after {
+    content: '';
+    display: block;
+    clear: both;
+    left: 0 !important;
+} */
+div.products .product p a.btn {
+    border: rgb(30, 18, 105) solid 2px;
+    border-radius: 0px;
+}
+div.products .product .item-description {
+    padding: 20px;
+}
+div.product-wanita .product-image {
+    background-color: rgb(199, 7, 103);
+    height: 250px;
+}
+
+div.product-pria .product-image {
+    background-color: rgb(54, 49, 49);
+    height: 250px;
+}
+div.product-honeymoon .product-image {
+    background-color: rgb(196, 196, 196);
+    height: 250px;
+}
+div.product-pasutri .product-image {
+    background-color: rgb(109, 33, 71);
+    height: 250px;
+}
+
+
